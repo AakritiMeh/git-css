@@ -1,0 +1,38 @@
+#boxSizing{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+    box-sizing: border-box;
+
+    /*this is css reset means u r taking control of everything...it is used becz at times it is difficult to track changes being done thus we try to get it back and then we can change stuff*/
+}
+
+#boxSizing{
+    border:2px dashed red;
+    width:400px;
+    font-size:1rem;
+    padding:0.5em;
+}
+#marginSizing{
+    border: 5px double rgb(0, 0, 0);    
+    font-size: 1.5rem;
+    margin: 1.5rem 2rem 3rem 4rem;
+    /*
+    margin-top:1.5rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    margin-left:4rem;
+    */
+    padding: 1.5rem;
+    outline: 2px solid greenyellow;
+}
+#circle{
+    margin: 3rem auto;
+    background-color: gold;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 75px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+}
