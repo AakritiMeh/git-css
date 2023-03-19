@@ -1,0 +1,15 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+    color:rgb(0, 0, 0);
+}
+input, button{
+    font:inherit;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#undeline{
+    text-decoration: underline;
+}
