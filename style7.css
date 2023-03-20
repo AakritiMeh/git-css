@@ -1,0 +1,27 @@
+body{
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+ul{
+    
+    text-align: center;    
+    color:blue;
+    line-height: 1.6;
+    list-style-position: inside;
+    list-style-type: square;
+    list-style-image: url("check.png");    
+}
+ul li:nth-child(2){
+    color: brown;
+}
+ul ::marker{
+    color: black;
+    font-family: 1rem;
+    content: "helo";
+}
