@@ -1,0 +1,25 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace
+}
+
+a{
+    text-decoration: underline;
+    cursor: pointer;
+    color:blue;    
+}
+a{
+    color:hsl(209, 71%, 7%);
+}
+a:visited{
+    color: red;
+}
+a:hover , a:focus{
+    color: hsl(205, 72%, 7%);
+    background:gold;
+}
+a:active{
+    color: aquamarine;
+
+}
