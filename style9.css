@@ -1,0 +1,36 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.45rem;
+}
+
+.block{
+    width:30vw;
+    height: 30vw;
+    background-color:gray;
+    color:white;
+    padding:1rem;
+
+}
+
+.left{
+    float:left;
+    margin-right: 1rem;
+    
+}
+.right{
+    float:right;
+    margin-left: 1rem;
+}
+
+.clear{
+    clear:both;
+}
+
+section{
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 1rem;
+    overflow: auto;
+    display: flow-root;
+}
+
